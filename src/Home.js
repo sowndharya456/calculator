@@ -7,8 +7,8 @@ import "./Home.css";
 
 function Home() {
   
-  const [disp, setDisplay] = useState(0);
-  const [result, setResult] = useState(0);
+  const [disp, setDisplay] = useState("0");
+  const [result, setResult] = useState("0");
   const [operator, setOperator] = useState("");
 
   const handleClick = (e) => {
@@ -35,7 +35,7 @@ function Home() {
         setDisplay(disp * 0.01);
       }
         else if(value === '.'){
-          if(!disp.include('.')){
+          if(!disp.includes('.') ){
           setDisplay(disp + '.');
           }
         }
