@@ -1,0 +1,66 @@
+.menu-layout{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    height:100%;
+} 
+
+.panel_row {
+    display :flex;
+    flex-direction: row;
+    width:100%;
+    height:20%;
+}
+
+.display_row{
+    width:100%;
+    height:12%;
+    background-color:grey;
+    text-align: right;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+button{
+    width: 100%;
+}
+
+
+.homeLayout{
+    width: 100%;
+    height : 100%;
+}
+
+.result_display{
+    font-size: 80px;
+    width: 100%;
+   
+   
+}
+
+.panel_display{
+    height:80%;
+}
+
+.panel_button{
+    width: 25%;
+    border: 1px solid black;
+}
+
+.panel_button.double_width{
+  width: 50% ;
+}
+
+button{
+    height: 100%;
+    background-color: rgb(197, 194, 194);
+    font-size: 10%;
+}
+
+button.operator{
+    background-color: orange;
+}
+
+Button.MuiButton-label{
+        font-size: 5%;
+}
